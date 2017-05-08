@@ -9,7 +9,7 @@ $FreestyleUsage-maxWidth: $FreestyleGuide-maxWidth !default;
     padding: 1rem 1rem 0;
     text-transform: uppercase;
   }
-
+  
   &-notes {
     font-size: .9rem;
   }
@@ -30,34 +30,6 @@ $FreestyleUsage-maxWidth: $FreestyleGuide-maxWidth !default;
       &.hljs {
         padding: .5rem 1rem;
       }
-    }
-
-    &--tomorrow-night {
-      @import '../ember-freestyle/highlight.js/tomorrow-night';
-    }
-
-    &--zenburn {
-      @import '../ember-freestyle/highlight.js/zenburn';
-    }
-
-    &--hybrid {
-      @import '../ember-freestyle/highlight.js/hybrid';
-    }
-
-    &--atelier-cave-dark {
-      @import '../ember-freestyle/highlight.js/atelier-cave-dark';
-    }
-
-    &--solarized-light {
-      @import '../ember-freestyle/highlight.js/solarized-light';
-    }
-
-    &--docco {
-      @import '../ember-freestyle/highlight.js/docco';
-    }
-
-    &--monokai-sublime {
-      @import '../ember-freestyle/highlight.js/monokai-sublime';
     }
   }
 
